@@ -15,11 +15,16 @@ export default function Foods() {
 
   return (
     <div className="p-4">
-      <h2 className="text-xl font-bold"></h2>
+      <h2 className="text-xl font-bold">Click to remove food</h2>
       <ul>
-        {foods.map((food) => (
-          <li key={food} className="text-green-600">
-            {food}
+        {foods.map((food, index) => (
+          <li key={index}>
+            <button
+              className="text-red-600 hover:underline"
+              onClick={() => removeFood(food)}
+            >
+              X {food}
+            </button>
           </li>
         ))}
       </ul>
