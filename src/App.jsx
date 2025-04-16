@@ -1,12 +1,11 @@
 import React from "react";
 
-import Counter from "./demo/Counter";
-import Foods from "./demo/Foods";
+import Cars from "./demo/Arrays/Cars";
 
 export default function App() {
   return (
     <div>
-      <Foods />
+      <Cars />
     </div>
   );
 }
