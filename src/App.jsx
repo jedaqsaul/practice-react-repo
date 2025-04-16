@@ -1,11 +1,15 @@
 import React from "react";
 
-import Cars from "./demo/Arrays/Cars";
+import Counter from "./Review/Counter";
+import Profile from "./Review/Profile";
+import Tasks from "./Review/Tasks";
 
 export default function App() {
   return (
     <div>
-      <Cars />
+      {/* <Counter /> */}
+      {/* <Profile /> */}
+      <Tasks />
     </div>
   );
 }
