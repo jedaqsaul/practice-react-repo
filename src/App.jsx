@@ -1,15 +1,15 @@
 import React from "react";
 
-import Counter from "./Review/Counter";
-import Profile from "./Review/Profile";
-import Tasks from "./Review/Tasks";
+import DarkModeToggle from "./Review/DarkModeToggle";
 
 export default function App() {
   return (
     <div>
       {/* <Counter /> */}
       {/* <Profile /> */}
-      <Tasks />
+      {/* <Tasks /> */}
+      {/* <Toggle /> */}
+      <DarkModeToggle />
     </div>
   );
 }
