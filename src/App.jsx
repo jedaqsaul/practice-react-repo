@@ -1,6 +1,6 @@
 import React from "react";
 
-import DarkModeToggle from "./Review/DarkModeToggle";
+import CounterTest from "./Review/CounterTest";
 
 export default function App() {
   return (
@@ -9,7 +9,9 @@ export default function App() {
       {/* <Profile /> */}
       {/* <Tasks /> */}
       {/* <Toggle /> */}
-      <DarkModeToggle />
+      {/* <DarkModeToggle /> */}
+      {/* <UserProfile/> */}
+      <CounterTest />
     </div>
   );
 }
