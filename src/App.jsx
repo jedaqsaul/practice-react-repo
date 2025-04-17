@@ -1,6 +1,6 @@
 import React from "react";
 
-import ToggleBoxes from "./Review/ToggleBoxes";
+import TabSwitcher from "./Review/TabSwitcher";
 
 export default function App() {
   return (
@@ -12,7 +12,8 @@ export default function App() {
       {/* <DarkModeToggle /> */}
       {/* <UserProfile/> */}
       {/* <CounterTest /> */}
-      <ToggleBoxes />
+      {/* <ToggleBoxes /> */}
+      <TabSwitcher />
     </div>
   );
 }
