@@ -1,6 +1,6 @@
 import React from "react";
 
-import CounterTest from "./Review/CounterTest";
+import ToggleBoxes from "./Review/ToggleBoxes";
 
 export default function App() {
   return (
@@ -11,7 +11,8 @@ export default function App() {
       {/* <Toggle /> */}
       {/* <DarkModeToggle /> */}
       {/* <UserProfile/> */}
-      <CounterTest />
+      {/* <CounterTest /> */}
+      <ToggleBoxes />
     </div>
   );
 }
